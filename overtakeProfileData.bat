@@ -27,8 +27,8 @@ if not errorlevel 0 (
 :: Vars
 set "datestamp=%date:~10,4%-%date:~4,2%-%date:~7,2%"
 set "_rdir=%systemdrive%\Users"
-set "_pun=WTCox-User"
-set "_nun=WTCox-Admin"
+set "_pun=oldUser"
+set "_nun=newUser"
 set "_permission=f"
 set "_inherit=0"
 set "_recurse=0"
